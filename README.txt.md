@@ -1,48 +1,30 @@
-# SMS Spam Detection
+Image to Grayscale Converter
+Overview
 
-## Overview
-SMS Spam Detection is a machine learning project that classifies SMS messages as spam or legitimate using Natural Language Processing (NLP) techniques and Python.
+Image to Grayscale Converter is a Python-based image processing project that converts colored images into grayscale using OpenCV. The project demonstrates basic computer vision and image manipulation techniques.
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Streamlit
+Technology Used
+Python
+OpenCV
+Features
+Image loading and processing
+Grayscale image conversion
+Image display using OpenCV
+Basic computer vision implementation
+Project Working
 
-## Features
-- Data preprocessing and cleaning
-- Text vectorization using NLP techniques
-- Spam message classification
-- Web deployment using Streamlit
+The application reads a colored image using OpenCV and converts it into grayscale format using image processing techniques. Both the original and grayscale images are displayed as output.
 
-## Dataset
-The project uses the SMS Spam Collection Dataset from Kaggle.
+How to Run
+Install the required package:
+pip install opencv-python
+Run the Python file:
+python app.py
+The application will display both the original and grayscale images.
+Usage
+Place the input image in the project folder.
+Run the Python script.
+View the grayscale converted image output.
+Author
 
-## Model Building
-Implemented multiple machine learning algorithms including:
-- Naive Bayes
-- Logistic Regression
-- Random Forest
-- Support Vector Classifier (SVC)
-
-The best-performing model was selected based on evaluation metrics.
-
-## How to Run
-
-1. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Run the application
-
-```bash
-streamlit run app.py
-```
-
-3. Open localhost:8501 in your browser.
-
-## Author
 Dharmik Parashar
